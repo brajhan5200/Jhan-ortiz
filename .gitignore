@@ -7,7 +7,7 @@ import requests
 
 
 class FigureEightClient:
-    endpoint = "https://api.figure-eight.com/v1/{path}?key={api_key}"
+    endpoint = "https://api.annotate.appen.com/v1/{path}?key={api_key}"
     api_key = ""
 
     def __init__(self, api_key, endpoint=None):
